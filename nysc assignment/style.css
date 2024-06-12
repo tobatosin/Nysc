@@ -1,0 +1,791 @@
+  body{
+    overflow-x: hidden;
+  }
+  
+  /* NAV COLUMN */
+.logo{
+    width: 60px;
+}
+.w1{
+    color: rgb(102,163,102);
+    font-size: 20px;
+}
+.w2{
+    color: rgb(167,76,76);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: -40px;
+}
+
+.nav1{
+    display: flex;
+    text-align: center;
+    gap: 5px;
+}
+.w3{
+    font-size: 50px;
+    display: inline-block;
+    justify-items: center;
+    padding-top: 0px;
+}
+.hf{
+    font-size: 18px;
+    display: flex;
+    gap: 10px;  
+    margin-top: -10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri,
+     'Trebuchet MS', sans-serif;
+       text-decoration: none;
+}
+.link{
+    text-decoration: none;
+    color:rgb(154,153,153) ;
+   
+   
+}
+
+.link:hover{
+    background-color: brown;
+    padding-top: 53px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 34px;
+    text-decoration: none;
+} 
+.nav{
+    display: flex;
+    height: 100px;
+   padding-top: 10px;
+    padding-left: 55px;
+    border-bottom:solid rgb(167,76,76);
+    border-width: 5px;
+    align-items: center;
+    gap: 20px;
+    margin-top: 1px;
+   
+}
+
+
+/* Welcome to the NYSC Portal */
+.below{
+    height: 50px;
+    background-color: rgb(45,131,58);
+    margin: -16px;
+    border-top: solid rgb(150,0,0) 5px ;
+}
+.bb{
+    color: white;
+    font-size: 35px;
+    margin-top:7px ;
+   padding-left: 70px;    
+}
+
+/* next box */
+
+.firstbox{
+    border: solid rgb(229,229,229);
+    height: 80px;
+    width: 700px;
+    margin:50px;
+    border-radius: 5px;
+    margin-left: 60px;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(83,91,96);
+    padding-top: 15px;
+}
+.text{
+    font-size: 20px;
+    color: rgb(83,85,92);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+    cursor: pointer;
+    text-decoration: none;
+}
+.text:hover{
+    text-decoration: underline;
+}
+
+.side{
+    /* margin-left: 60px; */
+    margin-top: 20px;
+}
+.box{
+    display: flex;
+    gap: 150px;
+    
+}
+ /* second box  */
+.secondbox{
+    height: 110px;
+    width: 1100px;
+    border: solid rgb(229,229,229);
+    border-radius: 5px;
+    margin-left: 60px;
+    text-align: center;
+    
+    
+    
+}
+.text2{
+    font-size: 25px;
+    color: rgb(199,13,13);
+    /* padding-bottom:-40px ; */
+    margin-top: 20px;
+
+}
+.text3{
+    color: rgb(101,155,188);
+    text-decoration: none;
+    font-size: 18px; 
+}
+.text3:hover{
+    text-decoration: underline;
+}
+/* Flex box styling */
+.thirdbox1{
+    height: 200px;
+    width: 345px;
+    border: solid rgb(229,229,229);
+    margin-left: 0px;
+    border-radius: 5px;
+    margin-top: 50px;
+    
+
+}
+.thirdbox2{
+    height: 200px;
+    width: 345px;
+    border: solid red;
+    margin-left: 0px;
+    border-radius: 5px;
+    margin-top: 50px;
+    border:solid rgb(229,229,229) ;
+}
+.thirdbox3{
+    height: 200px;
+    width: 345px;
+    border: solid rgb(229,229,229);
+    margin-left: 0px;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+.thirdbox{
+    display: flex;
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+    gap: 20px;
+}
+.logo3{
+    height: 50px;
+    width: 60px;
+    vertical-align: middle;
+    margin-left: -40px;
+}
+.but1{
+    background-color: rgb(204,229,204);
+    border-radius: 10px;
+    padding: 5px 70px;
+    font-size: 20px;
+    margin-left: -30px;
+    border: none;
+    
+
+}
+.text4{
+    text-decoration: none;
+    color:rgb(0,51,0) ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.text5{
+    color: rgb(87,146,182);
+    text-decoration: none;
+}
+.text5:hover{
+    text-decoration: underline;
+}
+
+/* footer */
+.text6{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(83,85,92);
+    margin-left: 60px;
+    border-bottom: solid rgb(83,85,92);
+    padding-bottom: 5px;
+    margin-top: 40px;
+}
+.box2{
+    border: solid rgb(229,229,229);
+    width: 285px;
+    height: 250px;
+    border-radius: 10px;
+    margin-left: 0px;
+}
+.box3{
+    border: solid rgb(229,229,229);
+    width: 285px;
+    height: 300px;
+    border-radius: 10px;
+    margin-left: 0px;
+    margin-top: -15px;
+}
+.box4{
+    border: solid rgb(229,229,229);
+    width: 285px;
+    height: 250px;
+    border-radius: 10px;
+    margin-left: 0px;
+}
+.box5{
+    border: solid rgb(229,229,229);
+    width: 285px;
+    height: 250px;
+    border-radius: 10px;
+    margin-left: 0px;
+}
+.footbox{
+    display: flex;
+    margin-left: 60px;
+}
+.text7{
+    font-size: 18px;
+    text-align: center;
+    color: rgb(89,95,107);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', 
+    Arial, sans-serif;
+    border-bottom: solid rgb(232,232,232);
+    padding-bottom: 40px;
+    border-bottom-style: dotted;
+    padding-top: 20px;
+}
+.logo4{
+    height: 120px;
+    width: 150px;
+    padding-left: 60px;
+}
+.box6{
+    height: 120px;
+    width: 330px;
+    border: solid rgb(229,229,229);
+    margin-left: 70px;
+    border-radius: 5px;
+    margin-top: -15px;
+    
+    
+    
+}
+
+.text8{
+    text-decoration: none;
+    color: rgb(87,146,182);
+    font-size: 17px;
+    margin-left: -20px;
+}
+.text9{
+    text-decoration: none;
+    color: rgb(87,146,182);
+    font-size: 18px;
+    margin-left: -20px;
+   
+}
+
+.text8:hover{
+    text-decoration: underline;
+}
+.text9:hover{
+    text-decoration: underline;
+}
+
+.box7{
+    border: solid rgb(229,229,229);
+    height: 80px;
+    width:330px ;
+    border-radius: 5px;
+    margin-left: 60px;
+    /* border: solid red;
+    height: 80px;
+    width:330px ;
+    border-radius: 5px;
+    margin-left: 60px;
+    text-align: center;
+    color:rgb(87,146,182) ;
+    font-size: 18px;
+    padding-top: 30px;
+    padding-left: 20px; */
+    
+
+}
+.box8{
+    border: solid rgb(229,229,229);
+    height: 80px;
+    width:330px ;
+    border-radius: 5px;
+    margin-left: 60px;
+}
+.text11{
+    text-decoration: none;
+    padding-left: 20px;
+   font-size: 18px;
+   color:rgb(87,146,182);
+
+}
+.footbox2{
+    display: flex;
+    border-bottom: solid rgb(150,0,0) 5px;
+    padding-bottom: 60px;
+}
+.text10{
+    text-decoration: none;
+    padding-left: 20px;
+   font-size: 18px;
+   color:rgb(87,146,182) ;
+
+    /* padding-left: -200px;
+    text-decoration: none;
+    padding-top: 30px; */
+    
+}
+
+/* Footer */
+.below2{
+    height: 50px;
+    background-color: rgb(0,53,0);
+    margin: -16px;
+    border-top: solid rgb(150,0,0) 5px ;
+    display: flex;
+    text-align: center;
+    gap: 150px;
+    position:sticky;
+    
+}
+.below3{
+    display: flex;
+    text-align: center;
+}
+.text12{
+    font-size: 13px;
+    color: white;
+    text-decoration: none;
+    margin-left: 185px;
+    margin-top: 100px;
+}
+.text12:hover{
+    text-decoration: underline;
+}
+.text13{
+    font-size: 13px;
+    color: white;
+    
+}
+.text14{
+    color: rgb(70,131,159);
+    font-size: 13px;
+    text-align: center;
+    text-decoration: none;
+}
+.text14:hover{
+    text-decoration: underline;
+}
+.text15{
+    margin-top: 11px;
+}
+.text16{
+    margin-top:  11px; ;
+}
+
+/* Media Query for Mobile */
+@media screen and (max-width:500px) {
+    body{
+        overflow-x: hidden;
+      }
+    
+    .nav1{
+        display: flex;
+        /* text-align: center; */
+        gap: 5px;
+        text-align: center;
+        justify-content: center;
+    }
+    .logo{
+        width: 60px;
+        margin-left: -30px;
+    }
+    
+    .w1{
+        color: rgb(102,163,102);
+        font-size: 18px;
+    }
+    .w2{
+        color: rgb(167,76,76);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        /* margin-top: 0px; */
+        font-size: 10px;
+    }
+    .hf{
+        font-size: 13px;
+        display: inline;
+        gap: 5px;  
+        margin-top: -20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri,
+         'Trebuchet MS', sans-serif;
+           text-decoration: none;
+    }
+    .link{
+        text-decoration: none;
+        color:rgb(154,153,153) ;
+       
+       
+    }
+    
+    .link:hover{
+        background-color: brown;
+        padding-top: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        text-decoration: none;
+    } 
+    
+/* Welcome to the NYSC Portal */
+.below{
+    height: 30px;
+    background-color: rgb(45,131,58);
+    margin: -16px;
+    border-top: solid rgb(150,0,0) 5px ;
+}
+.bb{
+    color: white;
+    font-size: 15px;
+    margin-top:7px ;
+   padding-left: 70px;   
+   letter-spacing: 3px; 
+   
+}
+
+/* next box  */
+
+.firstbox{
+    border: solid rgb(229,229,229);
+    height: 40px;
+    width: 200px;
+    margin:40px;
+    border-radius: 5px;
+    margin-left: 20px;
+    text-align: center;
+    font-size: 10px;
+    color: rgb(83,91,96);
+    padding-top: 15px;
+}
+.text{
+    font-size: 12px;
+    color: rgb(83,85,92);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+    cursor: pointer;
+    text-decoration: none;
+}
+.text:hover{
+    text-decoration: underline;
+}
+
+.side{
+    margin-left: -20px;
+    margin-top: 20px;
+}
+.box{
+    display: flex;
+    gap: 10px;
+    
+}
+.logo2{
+    width: 40px;
+    margin-top: -10px;
+}
+
+ /* second box  */
+ .secondbox{
+    height: 70px;
+    width: 300px;
+    border: solid rgb(229,229,229);
+    border-radius: 5px;
+    margin-left: 18px;
+    text-align: center;
+    
+    
+    
+}
+.text2{
+    font-size: 10px;
+    color: rgb(199,13,13);
+    /* padding-bottom:-40px ; */
+    margin-top: 20px;
+
+}
+.text3{
+    color: rgb(101,155,188);
+    text-decoration: none;
+    font-size: 8px; 
+    margin-top: -10px;
+}
+.text3:hover{
+    text-decoration: underline;
+}
+
+/* Flex box styling third box */
+.thirdbox1{
+    height: 170px;
+    width: 270px;
+    border: solid rgb(229,229,229);
+    margin-left: 30px;
+    border-radius: 5px;
+    margin-top: 20px;
+    
+
+}
+.thirdbox2{
+    height: 170px;
+    width: 270px;
+    border: solid red;
+    margin-left: 30px;
+    border-radius: 5px;
+    margin-top: 20px;
+    border:solid rgb(229,229,229) ;
+}
+.thirdbox3{
+    height: 170px;
+    width: 270px;
+    border: solid rgb(229,229,229);
+    margin-left: 30px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.thirdbox{
+    display: inline;
+    text-align: center;
+    text-decoration: none;
+}
+.logo3{
+    height: 40px;
+    width: 50px;
+    vertical-align: middle;
+    margin-left: -40px;
+}
+.but1{
+    background-color: rgb(204,229,204);
+    border-radius: 10px;
+    padding: 5px 70px;
+    font-size: 10px;
+    margin-left: -30px;
+    border: none;
+    
+
+}
+.text4{
+    text-decoration: none;
+    color:rgb(0,51,0) ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.text5{
+    color: rgb(87,146,182);
+    text-decoration: none;
+    font-size: 15px;
+}
+.text5:hover{
+    text-decoration: underline;
+}
+/* guideliness  */
+.text6{
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(83,85,92);
+    margin-left: 20px;
+    border-bottom: solid rgb(83,85,92);
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+
+/*First footer */
+
+.box2{
+    border: solid rgb(229,229,229);
+    width: 285px;
+    height: 200px;
+    border-radius: 10px;
+    margin-left: 22px;
+}
+.box3{
+    border: solid rgb(229,229,229);
+    width: 285px;
+    height: 200px;
+    border-radius: 10px;
+    margin-left: 22px;
+    margin-top: 0px;
+}
+.box4{
+    border: solid rgb(229,229,229);
+    width: 285px;
+    height: 200px;
+    border-radius: 10px;
+    margin-left: 22px;
+}
+.box5{
+    border: solid rgb(229,229,229);
+    width: 285px;
+    height: 200px;
+    border-radius: 10px;
+    margin-left: 22px;
+}
+.footbox{
+    display: inline;
+    /* margin-left: 60px; */
+
+}
+.text7{
+    font-size: 18px;
+    text-align: center;
+    color: rgb(89,95,107);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', 
+    Arial, sans-serif;
+    border-bottom: solid rgb(232,232,232);
+    padding-bottom: 20px;
+    border-bottom-style: dotted;
+    padding-top: 20px;
+}
+.logo4{
+    height: 90px;
+    width: 120px;
+    padding-left: 80px;
+}
+
+/* second footer  */
+
+.box6{
+    height: 80px;
+    width: 220px;
+    border: solid rgb(229,229,229);
+    margin-left: 20px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.text8{
+    text-decoration: none;
+    color: rgb(87,146,182);
+    font-size: 13px;
+    margin-left: -20px;
+}
+.text9{
+    text-decoration: none;
+    color: rgb(87,146,182);
+    font-size: 11px;
+    margin-left: -20px;
+    padding-top: -35px;
+   
+}
+
+.text8:hover{
+    text-decoration: underline;
+}
+.text9:hover{
+    text-decoration: underline;
+}
+
+.box7{
+    border: solid rgb(229,229,229);
+    height: 60px;
+    width:230px ;
+    border-radius: 5px;
+    margin-left: 40px;
+    /* border: solid red;
+    height: 80px;
+    width:330px ;
+    border-radius: 5px;
+    margin-left: 60px;
+    text-align: center;
+    color:rgb(87,146,182) ;
+    font-size: 18px;
+    padding-top: 30px;
+    padding-left: 20px; */
+    
+
+}
+.box8{
+    border: solid rgb(229,229,229);
+    height: 60px;
+    width:230px ;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+.text11{
+    text-decoration: none;
+    padding-left: 20px;
+   font-size: 13px;
+   color:rgb(87,146,182);
+
+}
+.footbox2{
+    display: inline;
+    border-bottom: solid rgb(150,0,0) 5px;
+    padding-bottom: 60px;
+}
+.text10{
+    text-decoration: none;
+    padding-left: 10px;
+   font-size: 13px;
+   color:rgb(87,146,182) ;
+    
+}
+/* Footer */
+.below2{
+    border: solid green;
+    height: 80px;
+    background-color: rgb(0,53,0);
+    margin: -16px;
+    border-top: solid rgb(150,0,0) 5px ;
+    border-bottom: none;
+    display: inline-block;
+    text-align: center;
+    gap: 0px;
+    position:sticky;
+    margin-top: 20px;
+    
+}
+.below3{
+    display: inline-flex;
+    text-align: center;
+    margin-top: -20px;
+   
+}
+.text12{
+    font-size: 11px;
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.text12:hover{
+    text-decoration: underline;
+}
+.text13{
+    font-size: 13px;
+    color: white;
+    
+}
+.text14{
+    color: rgb(70,131,159);
+    font-size: 13px;
+    /* text-align: center; */
+    text-decoration: none;
+    margin-left: -230px;
+   
+}
+.text14:hover{
+    text-decoration: underline;
+}
+.text15{
+    margin-top: 11px;
+}
+.text16{
+    margin-top:  25px;
+}
+}

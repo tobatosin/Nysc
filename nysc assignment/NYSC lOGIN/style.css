@@ -1,0 +1,362 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+body{
+    overflow-x: hidden;
+}
+
+.background{
+    background :linear-gradient(rgba(255, 255, 255, 0.7),rgba(192, 242, 217, 0.7)) , url(NYSC-Corps-members-1.jpg) ;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+ 
+/* CONTAINER  */
+.container{
+    display: flex;
+}
+.logo{
+   width:60px ;
+}
+.tlogo{
+    display: flex;
+}
+.text1{
+    color: rgb(198,142,125);
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 20px;
+    margin-top: 350px;
+    font-weight: 300;
+}
+.span1{
+    font-size: 30px;
+}
+.text2{
+    color: rgb(100,158,99);
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.text3{
+    color: rgb(160,76,77);
+    font-size: 17px;  
+    font-weight: 300;
+    margin-top: -65px;
+    text-align: center;
+}
+.dot{
+    font-size: 70px;
+    color: rgb(130,0,0);
+   text-align: center;
+}
+.dot2{
+    font-size: 70px;
+    color: rgb(130,0,0);
+    margin-left: -3px;
+    text-align: center;
+}
+
+/* semicon  */
+.semicon{
+    margin: 20px 130px;
+}
+.boxoo{
+    border: solid rgb(251, 249, 249);
+    width: 30vw;
+    height: 60vh;
+    background-color: rgb(248,249,248);border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 1px 5px 8px grey;
+    opacity: 0.8;
+
+}
+.mimi{
+    border: none ;
+    box-sizing: border-box;
+    width: 26vw;
+    height: 8vh;
+    margin: 22px;
+    border-radius: 10px;
+    background-color: rgb(186,211,187);
+}
+.text4{
+    font-size: 20px;
+    font-weight: 600;
+   padding-top: 10px;
+   padding-left: 20px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bi{
+    color: rgb(83,91,96);
+    
+}
+.text5{
+    color: rgb(83,91,96);
+}
+.macrobox{
+    margin-left: 22px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.input{
+    padding: 8px 93px;
+    /* border-radius: 2px; */
+    box-sizing: border-box;
+    /* border-radius: 5px ; */
+}
+button{
+    color: white ;
+    background-color: rgb(43,148,58);
+    padding: 6px 10px;
+    font-size: 18px;
+    border-radius: 2px;
+    margin-top: 20px;
+    margin-left: 270px;
+    border: none;
+    cursor: pointer;
+}
+.text6{
+    color: rgb(84,145,181);
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 22px;
+}
+
+.below2{
+    height: 50px;
+    background-color: rgb(0,53,0);
+    margin: -16px;
+    border-top: solid rgb(150,0,0) 5px ;
+    display: flex;
+    text-align: center;
+    gap: 150px;
+    position: sticky;
+    bottom: 0;
+}
+.below3{
+    display: flex;
+    text-align: center;
+}
+.text12{
+    font-size: 13px;
+    color: white;
+    text-decoration: none;
+    margin-left: 185px;
+    margin-top: 100px;
+}
+.text12:hover{
+    text-decoration: underline;
+}
+.text13{
+    font-size: 13px;
+    color: white;
+    
+}
+.text14{
+    color: rgb(70,131,159);
+    font-size: 13px;
+    text-align: center;
+    text-decoration: none;
+}
+.text14:hover{
+    text-decoration: underline;
+}
+.text15{
+    margin-top: 11px;
+}
+.text16{
+    margin-top:  11px; ;
+}
+/* Media Query for Mobile */
+@media screen and (max-width:500px) {
+
+
+    .background{
+        background :linear-gradient(rgba(255, 255, 255, 0.7),rgba(192, 242, 217, 0.7)) , url(NYSC-Corps-members-1.jpg) ;
+        background-size: cover;
+        width: 100vw;
+    }
+    .container{
+        display: flex;
+        /* align-items: center; */
+        justify-content: center;
+        /* align-content: center; */
+        /* align-items: center; */
+    }
+    .tlogo{
+        display: flex;
+        /* margin-left: -250px;
+        padding-left: -200px; */
+        /* justify-content: center; */
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin-left: -160px;
+        margin-top: 50px;
+    }
+    .logo{
+        width:40px ;
+     }
+     .text1{
+        color: rgb(198,142,125);
+        font-size: 5px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-left: 80px;
+        margin-top: 600px;
+        font-weight: 300;
+
+    }
+    .text2{
+        color: rgb(100,158,99);
+        font-size: 12px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .dot{
+        font-size: 30px;
+        color: rgb(130,0,0);
+       text-align: center;
+    }
+    .dot2{
+        font-size: 30px;
+        color: rgb(130,0,0);
+        margin-left: -3px;
+        text-align: center;
+    }
+    
+    .text3{
+        color: rgb(160,76,77);
+        font-size: 10px;  
+        font-weight: 300;
+        margin-top: -25px;
+        text-align: center;
+    }
+
+    .text1{
+        color: rgb(198,142,125);
+        font-size: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-left: 20px;
+        margin-top: 550px;
+        font-weight: 300;
+    }
+    .semicon{
+        margin: 20px 70px;
+    }
+    .boxoo{
+        border: solid rgb(251, 249, 249);
+        width: 80vw;
+        height: 40vh;
+        background-color: rgb(248,249,248);border-radius: 10px;
+        box-sizing: border-box;
+        box-shadow: 1px 5px 8px grey;
+        opacity: 0.8;
+        margin-left: -150px;
+        margin-top:70px;
+        
+    
+    }
+    .mimi{
+        border: none ;
+        box-sizing: border-box;
+        width: 65vw;
+        height: 5vh;
+        /* margin: 22px; */
+        border-radius: 10px;
+        background-color: rgb(186,211,187);
+    }
+    .text4{
+        font-size: 10px;
+        font-weight: 600;
+       padding-top: 10px;
+       padding-left: 20px;
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .macrobox{
+        margin-left: 22px;
+        font-size: 10px;
+        font-weight: bold;
+    }
+    .input{
+        padding: 8px 34px;
+        /* border-radius: 2px; */
+        box-sizing: border-box;
+        /* border-radius: 5px ; */
+    }
+    
+    button{
+        color: white ;
+        background-color: rgb(43,148,58);
+        padding: 6px 10px;
+        font-size: 18px;
+        border-radius: 2px;
+        margin-top: 20px;
+        margin-left: 169px;
+        border: none;
+        cursor: pointer;
+    }
+    .text6{
+        color: rgb(84,145,181);
+        text-decoration: none;
+        font-weight: bold;
+        margin-left: 22px;
+    }
+    /* Footer */
+.below2{
+    border: solid green;
+    height: 100px;
+    background-color: rgb(0,53,0);
+    margin: -16px;
+    border-top: solid rgb(150,0,0) 5px ;
+    border-bottom: none;
+    display: inline-block;
+    text-align: center;
+    gap: 0px;
+    position:sticky;
+    margin-top: 60px;
+    
+}
+.below3{
+    display: inline-flex;
+    text-align: center;
+    margin-top: -20px;
+   
+}
+.text12{
+    font-size: 11px;
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.text12:hover{
+    text-decoration: underline;
+}
+.text13{
+    font-size: 13px;
+    color: white;
+    margin-left: 20px;
+    margin-right: 25px;
+    text-align: center;
+    
+}
+.text14{
+    color: rgb(70,131,159);
+    font-size: 13px;
+    /* text-align: center; */
+    text-decoration: none;
+    margin-left: -200px;
+   
+}
+.text14:hover{
+    text-decoration: underline;
+}
+.text15{
+    margin-top: 11px;
+}
+.text16{
+    margin-top:  25px;
+    margin-left: -40px;
+}
+}
